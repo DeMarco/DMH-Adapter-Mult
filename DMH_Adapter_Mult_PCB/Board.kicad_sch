@@ -1,0 +1,7820 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "db7ad9c6-6ec6-40eb-95e9-2fe341a62ab2")
+	(paper "A4")
+	(title_block
+		(title "Adapter Mult Mk1")
+		(date "2024-05-26")
+		(rev "1")
+		(company "DMH")
+	)
+	(lib_symbols
+		(symbol "Synth_Stuff:Banana_Jack"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 2.54 4.5721 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Banana_Jack"
+				(at 2.54 2.0321 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point to solder Banana Jack to"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp banana"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Banana_Jack_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Banana_Jack_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Synth_Stuff:Conn_01x08_BackboneTap"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08_BackboneTap"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_BackboneTap_1_1"
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Synth_Stuff:Eurorack_Power_Connector_16Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IDC_02x08"
+				(at 1.27 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:IDC-Header_2x08_P2.54mm_Vertical_Eurorack"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IDC jack, 2x8 pins, row a carries same signals as row b."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Eurorack_Power_Connector_16Pin_1_1"
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
+					(end 3.81 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -10.033)
+					(end 2.54 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 7.747)
+					(end 2.54 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_1b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_3b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_5b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_6b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_7b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "Pin_8b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Synth_Stuff:Switch_DPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPDT"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON ON-OFF-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_DPDT_0_0"
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Switch_DPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -4.826) (xy 2.3368 -3.0988)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.334) (xy 2.3368 7.0612)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.874) (xy 0 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Switch_DPDT_1_1"
+				(rectangle
+					(start -3.175 8.89)
+					(end 3.175 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Synth_Stuff:TS_Jack_3.5mm_Sw"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.635 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS_Jack_3.5mm_Sw"
+				(at -0.635 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mono audio jack receptacle 3.5mm TS connector tip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS_Jack_3.5mm_Sw_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TS_Jack_3.5mm_Sw_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Synth_Stuff:TS_Jack_6.35mm_Sw"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.635 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS_Jack_6.35mm_Sw"
+				(at -0.635 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mono audio jack receptacle 6.35mm TS connector tip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS_Jack_6.35mm_Sw_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TS_Jack_6.35mm_Sw_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:-12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-12V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-12V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 100.33 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00137ca7-107d-43c3-8cf5-9c1a767805e6")
+	)
+	(junction
+		(at 205.74 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04bf145e-9998-43d7-b040-990f5456820a")
+	)
+	(junction
+		(at 190.5 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04f32dd0-1800-4c10-bab4-f582e4ddc590")
+	)
+	(junction
+		(at 175.26 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cb72a96-dba3-408c-a586-7c54fb278c59")
+	)
+	(junction
+		(at 205.74 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "117001dc-15d8-49b7-9e9e-4bcf5a6d9322")
+	)
+	(junction
+		(at 80.01 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11cfd690-0260-4b2f-a5f5-ba64d516cb0f")
+	)
+	(junction
+		(at 33.02 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13e4802e-ebe7-4fd8-8936-9c2ca974f1fb")
+	)
+	(junction
+		(at 100.33 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a20db68-94f9-4ef4-9470-f77c11be6359")
+	)
+	(junction
+		(at 133.35 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a358efb-bf9c-49d6-ab07-80ead36b77f2")
+	)
+	(junction
+		(at 190.5 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d628298-78cf-47b9-9783-dc8118bf40dc")
+	)
+	(junction
+		(at 100.33 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ffeb503-542c-438f-bb5c-31c77f06a588")
+	)
+	(junction
+		(at 54.61 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30f20efc-23bb-43dd-b539-eddc508c2299")
+	)
+	(junction
+		(at 107.95 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cb8ce00-91f9-4573-896b-7432f799d9dc")
+	)
+	(junction
+		(at 185.42 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46056817-0d1f-43ee-bc32-53f6121e875f")
+	)
+	(junction
+		(at 33.02 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ddb4a88-7bcb-4566-b38b-6a407ec9f5b2")
+	)
+	(junction
+		(at 80.01 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c423fc-ba0f-4403-b320-5950763be78a")
+	)
+	(junction
+		(at 80.01 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "563d72f7-11ab-4cb5-9987-cf8a8dc96257")
+	)
+	(junction
+		(at 54.61 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57e0133e-4061-4ec6-a5c4-cdf5a0f0935c")
+	)
+	(junction
+		(at 177.8 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e18e40a-9310-4330-a103-9aac40dc12bb")
+	)
+	(junction
+		(at 100.33 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61682259-f6ab-4a05-b42a-a766a3610962")
+	)
+	(junction
+		(at 80.01 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62d2585c-8a60-4940-a53f-518c48b77104")
+	)
+	(junction
+		(at 185.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657be6d4-e972-48df-b627-d594ba2e863f")
+	)
+	(junction
+		(at 100.33 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "697272c9-a2dd-44fb-98a3-8c12cd26ad3f")
+	)
+	(junction
+		(at 175.26 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a835c26-5ac7-47d9-9c36-6869e9ec473b")
+	)
+	(junction
+		(at 205.74 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c177bda-ad81-4637-b6e6-789bab9fcb51")
+	)
+	(junction
+		(at 107.95 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80adc7a5-588e-4a51-9207-eaf3a94ac959")
+	)
+	(junction
+		(at 80.01 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81bb2a8f-7c94-4c43-911c-ae5bdacd9d5e")
+	)
+	(junction
+		(at 160.02 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8865aa49-4049-4ee0-a1b3-1351e8a67581")
+	)
+	(junction
+		(at 133.35 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8effcc9d-e192-4c3d-9b52-2d863dcb3188")
+	)
+	(junction
+		(at 54.61 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9742bb09-d93d-4102-b91c-e9e468beb171")
+	)
+	(junction
+		(at 106.68 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b78cda5-a059-4e30-8987-28b804201823")
+	)
+	(junction
+		(at 147.32 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a49af8e6-02d9-43dc-84b6-4ce08a65370f")
+	)
+	(junction
+		(at 205.74 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a535b0da-847a-4e0b-a04a-ae87440bd23e")
+	)
+	(junction
+		(at 175.26 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8444c6e-6c79-4464-94aa-13849e52b30c")
+	)
+	(junction
+		(at 100.33 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9da3db3-2248-4f8b-8152-6716f3eadac0")
+	)
+	(junction
+		(at 149.86 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abb2a6d4-4d50-4559-8f5f-19d68a8571a1")
+	)
+	(junction
+		(at 160.02 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af21801f-b736-40c9-8177-b0fe6bc5f950")
+	)
+	(junction
+		(at 33.02 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1bac8a8-5f53-4b21-a33d-1ebc485014e3")
+	)
+	(junction
+		(at 33.02 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b559eac9-50a4-4bd5-a933-e0484305f256")
+	)
+	(junction
+		(at 175.26 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba42f2da-5860-4814-a001-97e7628b5661")
+	)
+	(junction
+		(at 205.74 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba51448d-ec76-422d-9ba6-1b2ecfc1b25f")
+	)
+	(junction
+		(at 80.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c469cae0-2627-4bf0-854e-7bc08f97e971")
+	)
+	(junction
+		(at 100.33 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb9a8ff5-8d37-4f0a-91cc-c1dbaea57383")
+	)
+	(junction
+		(at 175.26 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d63fd366-cfbd-40a8-b886-1245bd10ef61")
+	)
+	(junction
+		(at 80.01 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dec4e1ef-5694-4688-babe-2ea8ffd2ca5b")
+	)
+	(junction
+		(at 80.01 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e066ec6d-9530-4e32-958b-81ea3dabd6df")
+	)
+	(junction
+		(at 54.61 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22ed6cf-ead2-4f04-b611-fa2dc07e6c99")
+	)
+	(junction
+		(at 205.74 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f963c934-2d04-4826-874d-8870ea9bbe14")
+	)
+	(junction
+		(at 33.02 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcd80b30-492d-4c70-8ed1-948696722b70")
+	)
+	(junction
+		(at 100.33 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffe1b436-2011-4479-ad4f-31f6cdef2e87")
+	)
+	(no_connect
+		(at 184.15 66.04)
+		(uuid "0b1a6daf-a531-474b-8bea-e84d45764671")
+	)
+	(no_connect
+		(at 78.74 149.86)
+		(uuid "139ab2bf-6875-450b-8ec1-3b802f3df2bc")
+	)
+	(no_connect
+		(at 99.06 172.72)
+		(uuid "1d166ac1-cafa-42d4-8a8f-1408be261060")
+	)
+	(no_connect
+		(at 99.06 44.45)
+		(uuid "1d1b26dc-5c74-4ccc-b104-c33a453516f4")
+	)
+	(no_connect
+		(at 99.06 107.95)
+		(uuid "2e25b827-5a34-40aa-8bef-ca66076dc648")
+	)
+	(no_connect
+		(at 78.74 44.45)
+		(uuid "42f14fb2-3ea9-4ac9-be35-e9204bf62ce9")
+	)
+	(no_connect
+		(at 36.83 88.9)
+		(uuid "471e1f2d-e3e1-4a5c-b18d-7a92f37a0523")
+	)
+	(no_connect
+		(at 204.47 66.04)
+		(uuid "56d56691-3e16-46af-8b42-83775630cfc5")
+	)
+	(no_connect
+		(at 78.74 83.82)
+		(uuid "677ccb49-3bde-4bb1-8513-c3587868b179")
+	)
+	(no_connect
+		(at 36.83 49.53)
+		(uuid "8559d756-e4ab-4f7e-a9c0-170495a4592d")
+	)
+	(no_connect
+		(at 99.06 125.73)
+		(uuid "8fc6c0cf-abaa-466a-9c8c-9a027c1f1a8d")
+	)
+	(no_connect
+		(at 78.74 26.67)
+		(uuid "96d68f28-f41d-4980-b159-b29d6f312339")
+	)
+	(no_connect
+		(at 99.06 26.67)
+		(uuid "9ded4ef6-ca8d-4ecf-a7af-8f0729cf90f6")
+	)
+	(no_connect
+		(at 99.06 83.82)
+		(uuid "ad1f9764-ad8e-47d2-92c7-8eadabc96515")
+	)
+	(no_connect
+		(at 78.74 107.95)
+		(uuid "b2e8b62a-f4cc-42e8-8ca5-93fd54118ff3")
+	)
+	(no_connect
+		(at 36.83 130.81)
+		(uuid "c10b2cb1-ef04-4db5-a99a-17f045d009e7")
+	)
+	(no_connect
+		(at 99.06 149.86)
+		(uuid "c3f0811f-7d11-4b0f-ad91-4bdd03b7cb32")
+	)
+	(no_connect
+		(at 78.74 125.73)
+		(uuid "c716e658-585a-4386-a052-784987e4fe72")
+	)
+	(no_connect
+		(at 78.74 172.72)
+		(uuid "d20eeff1-5ff7-4d47-88e2-720831a53f07")
+	)
+	(no_connect
+		(at 204.47 44.45)
+		(uuid "de3e9c23-252d-4cc0-9a18-1b1d1151e49b")
+	)
+	(no_connect
+		(at 78.74 66.04)
+		(uuid "e3c1e13f-a1d6-4e00-b56e-fc0581cd9e3a")
+	)
+	(no_connect
+		(at 184.15 44.45)
+		(uuid "eb5ad746-4983-4dce-97e6-163dadaad7bf")
+	)
+	(no_connect
+		(at 99.06 66.04)
+		(uuid "f5caa380-9dc1-48cb-bb03-b3d495412d0b")
+	)
+	(wire
+		(pts
+			(xy 78.74 123.19) (xy 80.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024f4f26-7c73-46cd-9406-d25b85df4c37")
+	)
+	(wire
+		(pts
+			(xy 99.06 21.59) (xy 100.33 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dcf30c-c9bb-47ed-ae83-5d742c075c1f")
+	)
+	(wire
+		(pts
+			(xy 100.33 19.05) (xy 100.33 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050d7ea7-287f-4d2b-958b-44d31a784242")
+	)
+	(wire
+		(pts
+			(xy 54.61 133.35) (xy 54.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05275e50-27a1-47a0-bd0f-64a52f2c796d")
+	)
+	(wire
+		(pts
+			(xy 36.83 44.45) (xy 33.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a4aab8-74a1-44d1-ae5a-1c49122c34d4")
+	)
+	(wire
+		(pts
+			(xy 33.02 44.45) (xy 33.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c96b6c-cf3a-45fb-9888-62449a963dc4")
+	)
+	(wire
+		(pts
+			(xy 33.02 54.61) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078cf2cc-2e9a-421a-bc61-7b94951296cb")
+	)
+	(wire
+		(pts
+			(xy 46.99 52.07) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ad3cba-691b-4f1d-b51c-f4f2d36bdc04")
+	)
+	(wire
+		(pts
+			(xy 200.66 100.33) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08048bbf-10ba-4a5f-a90a-1325c0b6c4a1")
+	)
+	(wire
+		(pts
+			(xy 67.31 41.91) (xy 67.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bbb8f9-386b-47ed-b37c-e48e380a35f2")
+	)
+	(wire
+		(pts
+			(xy 134.62 135.89) (xy 160.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cdb8c8-d709-46fd-b097-de6ac4ff744e")
+	)
+	(wire
+		(pts
+			(xy 219.71 46.99) (xy 219.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3faa2b-f996-40f3-85fa-934994de5a14")
+	)
+	(wire
+		(pts
+			(xy 205.74 41.91) (xy 204.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c328e3c-88ff-4673-ac9c-cf8b5f92f475")
+	)
+	(wire
+		(pts
+			(xy 106.68 21.59) (xy 106.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7e8ab8-b9d0-4b00-83bb-50e1bfa2a52b")
+	)
+	(wire
+		(pts
+			(xy 100.33 63.5) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e71d40d-cdcd-4b65-81fa-acb302543122")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f68186f-c7f0-4c5e-b997-ad98d6cc14ce")
+	)
+	(wire
+		(pts
+			(xy 80.01 153.67) (xy 100.33 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10710535-1487-44b3-ad03-71458a2b01ed")
+	)
+	(wire
+		(pts
+			(xy 99.06 102.87) (xy 100.33 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1169181b-f9c1-4723-ac86-8fe80bff5075")
+	)
+	(wire
+		(pts
+			(xy 100.33 147.32) (xy 100.33 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16db4f49-ce94-4672-a269-01ded8094976")
+	)
+	(wire
+		(pts
+			(xy 175.26 137.16) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1762d2ab-d93d-48a4-8de1-638dd0626f14")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 185.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18374e3a-b062-49ef-a002-7bdc164f3558")
+	)
+	(wire
+		(pts
+			(xy 80.01 142.24) (xy 80.01 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19de79c7-bd0c-492b-b612-3cb4631f1a70")
+	)
+	(wire
+		(pts
+			(xy 147.32 115.57) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f67594-4923-4cd7-bfad-c2c6f7848672")
+	)
+	(wire
+		(pts
+			(xy 130.81 120.65) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a53b6d8-367b-41b5-b252-ae6374ea0c87")
+	)
+	(wire
+		(pts
+			(xy 36.83 83.82) (xy 33.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aeb480d-05dd-46ce-a4d2-3f9dfe7f6c0f")
+	)
+	(wire
+		(pts
+			(xy 205.74 39.37) (xy 219.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b04b42d-8575-48af-b683-7e0952a39708")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26) (xy 100.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bae8fa5-7b3c-4253-8f7a-a5d2e0c33594")
+	)
+	(wire
+		(pts
+			(xy 46.99 123.19) (xy 66.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c57509f-c552-4631-88c4-5369650baf9c")
+	)
+	(wire
+		(pts
+			(xy 160.02 135.89) (xy 160.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cae03e4-54de-4943-8682-8b86a4afb0a2")
+	)
+	(wire
+		(pts
+			(xy 204.47 60.96) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cca9d37-b8e8-4524-b17a-190ee956d524")
+	)
+	(wire
+		(pts
+			(xy 80.01 87.63) (xy 100.33 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4e4394-54d4-4e99-a2fb-986bb0e5e934")
+	)
+	(wire
+		(pts
+			(xy 133.35 128.27) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0cbd30-6a7b-4eef-a1c5-f97bf5295c4c")
+	)
+	(wire
+		(pts
+			(xy 149.86 105.41) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3ed41e-7dee-4a09-a601-41a46021e277")
+	)
+	(wire
+		(pts
+			(xy 78.74 147.32) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f78e9ed-3dd8-4608-b2fd-872e1609259c")
+	)
+	(wire
+		(pts
+			(xy 106.68 21.59) (xy 114.3 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd0aa76-58f5-46ef-99c0-76ad7d9ec704")
+	)
+	(wire
+		(pts
+			(xy 36.83 78.74) (xy 33.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202dd8c4-86b2-4835-bb09-5d1b5c41f22f")
+	)
+	(wire
+		(pts
+			(xy 114.3 21.59) (xy 114.3 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204a0746-264d-4918-9e56-36c04e5f3039")
+	)
+	(wire
+		(pts
+			(xy 205.74 107.95) (xy 205.74 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b5ea8a-8641-4688-a292-1cec10c616f8")
+	)
+	(wire
+		(pts
+			(xy 46.99 133.35) (xy 54.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2254fe6d-6a35-4a2c-b408-35c744fcb830")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240719f3-9e32-4e28-a62b-badbdc2afc09")
+	)
+	(wire
+		(pts
+			(xy 33.02 69.85) (xy 54.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2493e8da-e835-4fcc-ae4d-705ce762eb2b")
+	)
+	(wire
+		(pts
+			(xy 134.62 130.81) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270e5c85-73fc-4821-a3b4-3e4c9efb6e12")
+	)
+	(wire
+		(pts
+			(xy 36.83 125.73) (xy 33.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2797a49e-160d-4a77-8040-3d10c72e9c24")
+	)
+	(wire
+		(pts
+			(xy 80.01 167.64) (xy 78.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ce93eb-699b-4ee3-9b57-5977f10205a1")
+	)
+	(wire
+		(pts
+			(xy 80.01 78.74) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291043f8-1999-4d3b-8f71-9103bc6d523b")
+	)
+	(wire
+		(pts
+			(xy 78.74 105.41) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd4567f-5620-49ca-9ce4-4feb55fcf321")
+	)
+	(wire
+		(pts
+			(xy 46.99 91.44) (xy 54.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c465aa9-cb6f-4412-bba9-7eb154f0b848")
+	)
+	(wire
+		(pts
+			(xy 185.42 41.91) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c77cc50-6933-4354-a07c-dcf4f5634fae")
+	)
+	(wire
+		(pts
+			(xy 54.61 153.67) (xy 54.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1f3a55-2042-48d6-8dcd-8f557db619f7")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 175.26 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0d9af7-0590-491e-911c-5a5df61a877a")
+	)
+	(wire
+		(pts
+			(xy 114.3 144.78) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5940fa-1f2e-4e64-91a3-a202a2e60a09")
+	)
+	(wire
+		(pts
+			(xy 80.01 76.2) (xy 100.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e93b6ba-0f4e-4977-9556-23f42cc23452")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 66.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ae6d3f-64f0-462c-8138-6527e285ae9c")
+	)
+	(wire
+		(pts
+			(xy 80.01 142.24) (xy 100.33 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b6c878-b483-4dcc-83bd-c7ce8b0836ae")
+	)
+	(wire
+		(pts
+			(xy 54.61 153.67) (xy 80.01 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324e460a-c223-4094-be60-0b687f6785b6")
+	)
+	(wire
+		(pts
+			(xy 185.42 69.85) (xy 205.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b424e6-0119-482c-893c-47e5375cabe6")
+	)
+	(wire
+		(pts
+			(xy 66.04 129.54) (xy 80.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e8f928-c6c4-4cec-9fd3-80203b67a979")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352bca79-597e-4e8e-940e-5bfaad0f1046")
+	)
+	(wire
+		(pts
+			(xy 78.74 24.13) (xy 80.01 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3639d1b4-5be6-4f79-97bc-a3692da38af6")
+	)
+	(wire
+		(pts
+			(xy 33.02 125.73) (xy 33.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3730f6cb-636c-44fc-9b97-b2151e5c691f")
+	)
+	(wire
+		(pts
+			(xy 205.74 58.42) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d64431-db3d-4aba-8a6d-157989157fbe")
+	)
+	(wire
+		(pts
+			(xy 147.32 128.27) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3930a785-ad53-4c33-958e-913e436106d9")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.22) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3979ab1f-145c-43b8-a974-89d1e98a25f2")
+	)
+	(wire
+		(pts
+			(xy 210.82 48.26) (xy 205.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a522da3-c8ef-45f7-b79a-b54031395758")
+	)
+	(wire
+		(pts
+			(xy 33.02 135.89) (xy 33.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b2e241e-ab31-4ca6-b555-02828bfd5af7")
+	)
+	(wire
+		(pts
+			(xy 80.01 118.11) (xy 100.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b98df82-32c2-4b2e-8b78-a41e343c3041")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 172.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca9186e-04f6-4672-b63d-390fd9110431")
+	)
+	(wire
+		(pts
+			(xy 80.01 165.1) (xy 100.33 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc5e59a-70bb-4ef6-a65f-157929e37e77")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 100.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fa07d7-17bd-482a-a723-719a6ed83785")
+	)
+	(wire
+		(pts
+			(xy 36.83 120.65) (xy 33.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4435ce3d-c678-4cc0-80dc-afac8dbf0e1a")
+	)
+	(wire
+		(pts
+			(xy 134.62 106.68) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4475a75b-befa-4491-9a63-600799c911c1")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 205.74 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fab05f-e82d-4a8b-84a6-b74ddf16bbf6")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 204.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491b56fb-ee75-46ae-8f38-8da272959f53")
+	)
+	(wire
+		(pts
+			(xy 185.42 39.37) (xy 184.15 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495a2a76-e7f6-45be-bdde-8cf16af00c06")
+	)
+	(wire
+		(pts
+			(xy 177.8 100.33) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bb6654-fcc5-437c-baf7-2fccbf0897b9")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 205.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f4e941-7cd1-4fd3-aeaf-2bf07966d520")
+	)
+	(wire
+		(pts
+			(xy 80.01 19.05) (xy 80.01 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a11b3b0-9918-48f4-9e6d-53a674f4fe93")
+	)
+	(wire
+		(pts
+			(xy 46.99 81.28) (xy 66.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7ba0b2-9738-4d13-9b8d-0c72533eefe1")
+	)
+	(wire
+		(pts
+			(xy 80.01 69.85) (xy 100.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d025add-3ada-48e5-9efc-60a2be78e88c")
+	)
+	(wire
+		(pts
+			(xy 134.62 123.19) (xy 132.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6bf773-916f-4713-8712-b05c046d38a0")
+	)
+	(wire
+		(pts
+			(xy 100.33 170.18) (xy 100.33 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c33cce-1a48-40c5-90a0-ffa05dececdf")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514bf7ae-1910-4e83-8703-ab7bc1c2d4ec")
+	)
+	(wire
+		(pts
+			(xy 100.33 165.1) (xy 100.33 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cefb72-24c8-44db-92ce-1ee74900089c")
+	)
+	(wire
+		(pts
+			(xy 33.02 93.98) (xy 33.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550f0e9c-3883-4db7-9e73-ed850e6f4330")
+	)
+	(wire
+		(pts
+			(xy 100.33 76.2) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56309b62-0fd1-403c-b156-103e57fc29ba")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56add06e-06b1-42db-9329-360475f8937b")
+	)
+	(wire
+		(pts
+			(xy 133.35 130.81) (xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58725a04-88bb-40a3-bac1-11b2428f2ecc")
+	)
+	(wire
+		(pts
+			(xy 80.01 76.2) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9f7eb1-eab6-4076-933a-f9506b3b7685")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c28f22a-37af-4ae1-aef7-677850bea9e6")
+	)
+	(wire
+		(pts
+			(xy 172.72 109.22) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e780390-4b69-45af-acc3-f6ab80f6b7c3")
+	)
+	(wire
+		(pts
+			(xy 80.01 63.5) (xy 80.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eea7c11-390a-4359-83c7-3e7dcdf80cf9")
+	)
+	(wire
+		(pts
+			(xy 182.88 109.22) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef1848d-1884-457e-8588-07e9aac9f246")
+	)
+	(wire
+		(pts
+			(xy 33.02 30.48) (xy 54.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b1e0de-beb2-40a9-8c2c-94bd564cd33c")
+	)
+	(wire
+		(pts
+			(xy 80.01 21.59) (xy 78.74 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c6b3ec-9cbc-48fe-a360-8ef4324085ba")
+	)
+	(wire
+		(pts
+			(xy 99.06 39.37) (xy 100.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cfbb38-2e5a-4d95-ba94-a464bef6d41e")
+	)
+	(wire
+		(pts
+			(xy 205.74 48.26) (xy 205.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6589fbd0-b0d5-4d49-b483-c8327d039bd0")
+	)
+	(wire
+		(pts
+			(xy 80.01 100.33) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662fcd4a-7259-492c-8fc0-8273ad4b794b")
+	)
+	(wire
+		(pts
+			(xy 54.61 69.85) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f86de6-c8b5-4e38-8887-1035fb891f7e")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673198d8-4644-408e-9524-91474713c7eb")
+	)
+	(wire
+		(pts
+			(xy 100.33 39.37) (xy 106.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681b2e01-6d3e-468c-a7e2-1501654be543")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688ac544-687f-4fbf-abed-6e2a7544ab13")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 54.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697e4b3d-e1a1-4d2d-8b29-3910ec330ce7")
+	)
+	(wire
+		(pts
+			(xy 54.61 69.85) (xy 54.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3a67ec-eb9f-4b1d-bc76-3f602440e30f")
+	)
+	(wire
+		(pts
+			(xy 80.01 147.32) (xy 80.01 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b015a66-e86b-4f0d-a4a5-1a8db51abf4c")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5576ea-a80e-40a8-bee3-6d903cf6a7b3")
+	)
+	(wire
+		(pts
+			(xy 185.42 36.83) (xy 185.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e959453-4824-44ac-8cd4-d11ea53e05c4")
+	)
+	(wire
+		(pts
+			(xy 134.62 128.27) (xy 133.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d34793-f950-46f2-b1ec-753b2e9c249a")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7409e73b-500a-414e-97de-b481cac7fad4")
+	)
+	(wire
+		(pts
+			(xy 36.83 135.89) (xy 33.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746c987c-23d2-4c4c-a5ba-5316b1c3dc8f")
+	)
+	(wire
+		(pts
+			(xy 80.01 81.28) (xy 80.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76587461-05e0-49f2-90fa-7531c1b8e324")
+	)
+	(wire
+		(pts
+			(xy 185.42 58.42) (xy 185.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76edc6d6-76a7-4e1e-ab2c-9a79623512c3")
+	)
+	(wire
+		(pts
+			(xy 134.62 118.11) (xy 133.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770dfb50-d32f-48a8-a52e-613787da22ea")
+	)
+	(wire
+		(pts
+			(xy 80.01 120.65) (xy 78.74 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773a7bc9-e6d1-49da-a736-24cff3ffc134")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1368a0-635b-463a-90ae-f0760ab48af8")
+	)
+	(wire
+		(pts
+			(xy 80.01 41.91) (xy 80.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0a6834-db55-41a0-bbcf-479f68fd6eda")
+	)
+	(wire
+		(pts
+			(xy 100.33 118.11) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cae8242-b5fb-4af4-afef-3527611c2648")
+	)
+	(wire
+		(pts
+			(xy 204.47 39.37) (xy 205.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e689590-a9c9-48fe-ad17-64a41eb06ecd")
+	)
+	(wire
+		(pts
+			(xy 190.5 123.19) (xy 190.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9740b3-4b3f-476e-b1fc-1b9f95b3da35")
+	)
+	(wire
+		(pts
+			(xy 33.02 120.65) (xy 33.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec03c32-3dac-4f3a-b012-7ebfaf0fb0c5")
+	)
+	(wire
+		(pts
+			(xy 133.35 137.16) (xy 175.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eeac4d7-e3f9-424b-a69f-185c77c317c8")
+	)
+	(wire
+		(pts
+			(xy 100.33 144.78) (xy 114.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f45328e-469d-43a0-9923-833132dab52c")
+	)
+	(wire
+		(pts
+			(xy 132.08 138.43) (xy 190.5 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7622a8-b3ba-4c7c-8cd3-9f2574e08049")
+	)
+	(wire
+		(pts
+			(xy 190.5 92.71) (xy 190.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbe32dc-4c5c-4e28-96a9-13fee40b5237")
+	)
+	(wire
+		(pts
+			(xy 100.33 24.13) (xy 99.06 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd1771e-a7d5-4e96-be74-f5004dda510f")
+	)
+	(wire
+		(pts
+			(xy 100.33 102.87) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8215d9ff-24a2-4ed5-b975-dde000a9b0c3")
+	)
+	(wire
+		(pts
+			(xy 67.31 48.26) (xy 80.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ad296a-1d2c-4137-9a2e-ef3cdf9fd0c0")
+	)
+	(wire
+		(pts
+			(xy 147.32 118.11) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83549b69-0510-41a8-83bf-e7d98995a3b7")
+	)
+	(wire
+		(pts
+			(xy 80.01 105.41) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862ce232-25ce-49c1-bf37-500f6b626e90")
+	)
+	(wire
+		(pts
+			(xy 78.74 170.18) (xy 80.01 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86311971-7de3-4dad-8600-5887c7db43c4")
+	)
+	(wire
+		(pts
+			(xy 99.06 167.64) (xy 100.33 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f60850-8d4c-471c-80dc-39c6eeb072c3")
+	)
+	(wire
+		(pts
+			(xy 80.01 176.53) (xy 100.33 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89082e42-55bd-4f10-9cb0-7b132c91e3d3")
+	)
+	(wire
+		(pts
+			(xy 185.42 36.83) (xy 205.74 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ada9973-a4a1-475d-96cf-94cbb3696a0d")
+	)
+	(wire
+		(pts
+			(xy 190.5 95.25) (xy 205.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb225f9-bc87-4b26-ab62-1b8632ae041d")
+	)
+	(wire
+		(pts
+			(xy 80.01 24.13) (xy 80.01 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc39658-a88a-4b2c-b3bc-b0f6d4ecffeb")
+	)
+	(wire
+		(pts
+			(xy 54.61 176.53) (xy 80.01 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3a1440-b6fe-42b0-8c26-f459bce5d618")
+	)
+	(wire
+		(pts
+			(xy 80.01 36.83) (xy 80.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e40e48c-e1a8-4612-b489-a64ea86814a2")
+	)
+	(wire
+		(pts
+			(xy 54.61 30.48) (xy 54.61 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2ed79b-5e34-4170-8383-5b278534e73e")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 132.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90de36e7-7c3a-4d24-a0aa-f706c81afac0")
+	)
+	(wire
+		(pts
+			(xy 149.86 118.11) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c96775-005c-4864-989f-d6c8464342a7")
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92995663-5dad-4e31-be2d-29c0c3bc4b08")
+	)
+	(wire
+		(pts
+			(xy 100.33 63.5) (xy 100.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f970ad-bdfa-455d-8cdf-f47ce61575c6")
+	)
+	(wire
+		(pts
+			(xy 78.74 81.28) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963ecff0-e532-47f2-894a-1d25bef298c5")
+	)
+	(wire
+		(pts
+			(xy 80.01 39.37) (xy 78.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f89f2a-50c8-45e3-8a77-a3dad8d2d8db")
+	)
+	(wire
+		(pts
+			(xy 219.71 60.96) (xy 219.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d114f1-a52e-4a48-bd71-9932e4643927")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e1fe93-21fb-465b-bd23-9e8e9293ddbb")
+	)
+	(wire
+		(pts
+			(xy 175.26 128.27) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ada574-d68e-4e8a-a5de-fb0ca662a0a8")
+	)
+	(wire
+		(pts
+			(xy 100.33 167.64) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d68043-d835-4aa3-94c5-85088f1388c3")
+	)
+	(wire
+		(pts
+			(xy 187.96 97.79) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998b6b7a-08f2-458b-9d69-d9128c45956b")
+	)
+	(wire
+		(pts
+			(xy 205.74 95.25) (xy 205.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4541a5-3a46-4795-8dee-bf6e0685a3bf")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c33984d-b336-43b8-a548-ae4d1a3a9e91")
+	)
+	(wire
+		(pts
+			(xy 185.42 63.5) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d27d49d-c38b-41d1-ba3e-d19d13c038b8")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.19) (xy 99.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed34f71-6e98-4a69-a010-9bcc0847156d")
+	)
+	(wire
+		(pts
+			(xy 100.33 120.65) (xy 107.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed5ffcf-4d0a-46a7-a1f6-35a08d42f44c")
+	)
+	(wire
+		(pts
+			(xy 160.02 133.35) (xy 147.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04e48b5-8b64-41d5-8d26-56da0ac8996d")
+	)
+	(wire
+		(pts
+			(xy 133.35 125.73) (xy 133.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2587419-402e-4b8d-bdd7-245797fbb944")
+	)
+	(wire
+		(pts
+			(xy 175.26 125.73) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33c1c5d-eafb-47f9-a175-b02d86516dfd")
+	)
+	(wire
+		(pts
+			(xy 78.74 41.91) (xy 80.01 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b9c8bd-cc73-4b40-ad3d-ee37d3f70b08")
+	)
+	(wire
+		(pts
+			(xy 80.01 36.83) (xy 100.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a754cf56-4ab2-4e72-bb46-ab099c18216c")
+	)
+	(wire
+		(pts
+			(xy 99.06 120.65) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a812b45e-c619-41e5-a5af-de8b3715fbad")
+	)
+	(wire
+		(pts
+			(xy 33.02 111.76) (xy 54.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a879969e-09bc-4391-838c-dfec81ac74fe")
+	)
+	(wire
+		(pts
+			(xy 175.26 111.76) (xy 175.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97ffdb5-4cba-427a-afaf-ebe1528d4bec")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7b8a70-3458-4970-ba13-72bf68e276c9")
+	)
+	(wire
+		(pts
+			(xy 184.15 41.91) (xy 185.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafafaf1-a09e-4143-833f-546220c85b79")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adae7bdd-8ee9-4c18-95d7-a8abb7acdafb")
+	)
+	(wire
+		(pts
+			(xy 100.33 87.63) (xy 100.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7a6668-3ffd-489e-a83f-71108659b015")
+	)
+	(wire
+		(pts
+			(xy 99.06 144.78) (xy 100.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae877a2b-1057-443a-aa1c-265c7acee759")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.22) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af29e26b-289b-4532-affd-7726b114ee73")
+	)
+	(wire
+		(pts
+			(xy 100.33 36.83) (xy 100.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7cef1a-b1a3-492a-b2c3-bfb655e3a3bc")
+	)
+	(wire
+		(pts
+			(xy 149.86 48.26) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a472ee-dd45-4e2f-8311-a0d8b843ecb6")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c7caee-4c9a-452d-bebf-e81b20ec5ddd")
+	)
+	(wire
+		(pts
+			(xy 134.62 133.35) (xy 134.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b295cc74-7519-4a36-868c-90ce0ac60a10")
+	)
+	(wire
+		(pts
+			(xy 134.62 125.73) (xy 133.35 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2cae6e2-0afa-4cd6-b29b-62abbff6656a")
+	)
+	(wire
+		(pts
+			(xy 54.61 176.53) (xy 54.61 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3470194-57f5-4b5c-8a93-87470cf6a72a")
+	)
+	(wire
+		(pts
+			(xy 80.01 129.54) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7566704-3948-4efc-80bd-5b7aac641660")
+	)
+	(wire
+		(pts
+			(xy 185.42 48.26) (xy 205.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b833f5c8-7408-4d30-a02c-8ef412011a51")
+	)
+	(wire
+		(pts
+			(xy 80.01 165.1) (xy 80.01 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88a46f9-f8ec-4851-be07-7a7c9ba4ebce")
+	)
+	(wire
+		(pts
+			(xy 33.02 93.98) (xy 36.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9594043-2210-4444-9961-5a5ef00521ff")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba804334-fb03-47e4-9c44-80dc3f995263")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae61f6a-1039-467b-915c-b08481fc82ff")
+	)
+	(wire
+		(pts
+			(xy 185.42 58.42) (xy 205.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2861c8-3a96-4738-aa91-32b3e8628b3f")
+	)
+	(wire
+		(pts
+			(xy 100.33 21.59) (xy 106.68 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8eb640-2fc5-4ed6-aa37-7ec285f1ddb6")
+	)
+	(wire
+		(pts
+			(xy 33.02 153.67) (xy 54.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf81d666-c2b0-49ac-bd47-373750a92fd6")
+	)
+	(wire
+		(pts
+			(xy 184.15 63.5) (xy 185.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c125ceec-84a5-4ff4-a7a0-a6c4e8c60d89")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 33.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d7b64e-1871-4aea-97aa-3fe761d4be21")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 160.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c596cd4b-60d5-47e0-ba41-0e84ab87e327")
+	)
+	(wire
+		(pts
+			(xy 147.32 125.73) (xy 175.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a8e383-8a1d-435c-ac31-50148a0213ff")
+	)
+	(wire
+		(pts
+			(xy 100.33 24.13) (xy 100.33 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75eb5f0-4b4d-42e4-8ea1-e26926ed43fa")
+	)
+	(wire
+		(pts
+			(xy 80.01 19.05) (xy 100.33 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99421c1-0203-4317-a65e-bd63fac9b54b")
+	)
+	(wire
+		(pts
+			(xy 100.33 41.91) (xy 99.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6eb781-94d2-44fa-84fb-c843b4b2b1fb")
+	)
+	(wire
+		(pts
+			(xy 66.04 87.63) (xy 80.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd08148-7fc4-4fcf-998b-30632f7018b7")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd7bc6c-4988-43df-afe0-8841e4a28f90")
+	)
+	(wire
+		(pts
+			(xy 180.34 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce361e8d-9b59-4fdb-8793-2b5458a3dfb8")
+	)
+	(wire
+		(pts
+			(xy 133.35 118.11) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7ed8fe-fa9e-456d-bddf-e5c53e43bd39")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 219.71 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe8aae1-b21d-4672-a498-a27bf95f505d")
+	)
+	(wire
+		(pts
+			(xy 100.33 129.54) (xy 100.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18fa18d-8e03-496f-a395-7763e96e6a13")
+	)
+	(wire
+		(pts
+			(xy 80.01 144.78) (xy 78.74 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ef644c-ecb7-46b0-92ad-21a900a87afd")
+	)
+	(wire
+		(pts
+			(xy 180.34 100.33) (xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d247b75c-1e4d-4015-aee1-a76350f4fc5f")
+	)
+	(wire
+		(pts
+			(xy 80.01 102.87) (xy 78.74 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2589fc3-a294-4aaa-8ddb-ddcb676120bf")
+	)
+	(wire
+		(pts
+			(xy 80.01 100.33) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32d76ec-7ae6-42a4-ad87-8574e2a6d715")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 33.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d629855f-8490-4a4a-af95-15c772a9905f")
+	)
+	(wire
+		(pts
+			(xy 33.02 69.85) (xy 33.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d660d67c-9226-40b5-96a2-de3a0985bdfa")
+	)
+	(wire
+		(pts
+			(xy 66.04 123.19) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6846c78-25ae-4d4f-b332-3d3b54cfb972")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 160.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0c1bd8-3b75-43b7-aff6-af5479f10c0d")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.42) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1095b9-6721-4e19-ad6d-7a39a38d6941")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 205.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df689d62-6246-4040-9f52-056e1fae3f22")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0290530-0410-4284-b06f-239aa2460f25")
+	)
+	(wire
+		(pts
+			(xy 185.42 100.33) (xy 200.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e126e95f-007c-4eb6-98f5-6ca6298e10a7")
+	)
+	(wire
+		(pts
+			(xy 80.01 123.19) (xy 80.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28d4678-838b-473e-9a12-52fe6b6e0e02")
+	)
+	(wire
+		(pts
+			(xy 100.33 60.96) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e326be80-e367-46bc-9e2c-f69a846c7cb9")
+	)
+	(wire
+		(pts
+			(xy 100.33 170.18) (xy 99.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e331685c-1f05-4b8d-9911-acc0629b0da7")
+	)
+	(wire
+		(pts
+			(xy 210.82 97.79) (xy 210.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4dbf53b-bafa-4ed0-81fc-45fe8f843ea1")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 100.33 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70e4a1b-c4a3-470e-84b6-2dcb9ff2d2db")
+	)
+	(wire
+		(pts
+			(xy 177.8 100.33) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7771f28-8972-48a6-9058-7dfecdd219c1")
+	)
+	(wire
+		(pts
+			(xy 80.01 170.18) (xy 80.01 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86b9548-9aab-4879-bfe3-d20533430972")
+	)
+	(wire
+		(pts
+			(xy 33.02 39.37) (xy 33.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaece6de-f08d-4765-80f7-d6bbe3821e6c")
+	)
+	(wire
+		(pts
+			(xy 114.3 167.64) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7d481b-7c6b-4044-9f91-3b669b045581")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 78.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb44a0a-833a-4fd9-af44-16e3bdda1e4e")
+	)
+	(wire
+		(pts
+			(xy 54.61 30.48) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecba476a-14fc-42b8-a1b0-babae56687c3")
+	)
+	(wire
+		(pts
+			(xy 185.42 60.96) (xy 184.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee65f098-3e68-49c2-b8d4-89b77b4b07d1")
+	)
+	(wire
+		(pts
+			(xy 134.62 115.57) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee79bb74-f521-45bf-9958-bc487cf00d86")
+	)
+	(wire
+		(pts
+			(xy 54.61 69.85) (xy 80.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef742104-d4cf-49e5-9da8-b55a8fa72a77")
+	)
+	(wire
+		(pts
+			(xy 80.01 118.11) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdef59c-8c5b-4a09-8b34-4a000a547d56")
+	)
+	(wire
+		(pts
+			(xy 33.02 54.61) (xy 33.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe0cff4-26cd-413c-b0cf-37ac95e2aa92")
+	)
+	(wire
+		(pts
+			(xy 205.74 36.83) (xy 205.74 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12a0393-8cf8-40a6-bdc8-02c3adf8cf6d")
+	)
+	(wire
+		(pts
+			(xy 205.74 139.7) (xy 205.74 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f238d9ce-0651-449c-8801-68798f3880db")
+	)
+	(wire
+		(pts
+			(xy 205.74 120.65) (xy 147.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24afc00-e3ba-458e-b715-4260f338ab7c")
+	)
+	(wire
+		(pts
+			(xy 100.33 142.24) (xy 100.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c377e5-8bd4-4550-9550-f369099a5a62")
+	)
+	(wire
+		(pts
+			(xy 100.33 147.32) (xy 99.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34294d8-9cb9-46b5-b38b-1444c964362d")
+	)
+	(wire
+		(pts
+			(xy 54.61 30.48) (xy 80.01 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a583ea-f5c4-4fa5-85db-d01199d49c8e")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66294d5-5d39-4615-8def-a594e94eb8ee")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 177.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73fa917-812d-42c8-b873-f9de4b644c4b")
+	)
+	(wire
+		(pts
+			(xy 46.99 41.91) (xy 67.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8356a47-e92c-4896-9bbd-7af6278c8666")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f961571d-5464-49a0-a0ae-ed60e71cc71e")
+	)
+	(wire
+		(pts
+			(xy 187.96 92.71) (xy 187.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d8c783-6965-4ddc-9f4f-93cab595e663")
+	)
+	(wire
+		(pts
+			(xy 175.26 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa17a0c0-8b44-4afb-940a-8f8d4393623b")
+	)
+	(wire
+		(pts
+			(xy 80.01 30.48) (xy 100.33 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc90aa04-9bd2-43a0-9217-76891e103366")
+	)
+	(wire
+		(pts
+			(xy 133.35 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0c7429-6d2d-489f-9a1c-975c9aa794d8")
+	)
+	(wire
+		(pts
+			(xy 107.95 102.87) (xy 107.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe9a957-065f-435d-ac31-cdf01bd72c39")
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ef7034-472d-4156-9ed3-bbedd5aca649")
+		(property "Reference" "J15"
+			(at 73.025 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "27985c78-4e07-4c81-bb62-882720d0da12")
+		)
+		(pin "S"
+			(uuid "78629491-b2b4-4b82-bd24-7087e64c1ab7")
+		)
+		(pin "T"
+			(uuid "f12be794-fe4e-4aec-b6a0-eb889979f37f")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 179.07 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1acd09e8-fc88-4124-8c29-4e9a70666db5")
+		(property "Reference" "J17"
+			(at 178.435 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 178.435 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "712d5de0-2e3d-4b85-a5ff-ff4007db06c2")
+		)
+		(pin "S"
+			(uuid "4419bafa-4808-4767-80e4-335393a83a21")
+		)
+		(pin "T"
+			(uuid "ea1fc0d8-6f63-4b07-8d88-ed4cc5e5f061")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c1b59c6-ea3e-49a3-b47f-e2fd8c84dc7e")
+		(property "Reference" "J14"
+			(at 93.345 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "c3bf4583-1763-404e-839b-406c0a4543da")
+		)
+		(pin "S"
+			(uuid "46fee6b0-6e42-4286-b465-c1408ad73fc8")
+		)
+		(pin "T"
+			(uuid "08b05252-f450-4f89-8847-2ce820d6ff96")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f8b30e9-ce31-4eca-a668-f891fbd76c85")
+		(property "Reference" "J3"
+			(at 73.025 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "d3886c59-cd69-411f-b2aa-d7221fd197c3")
+		)
+		(pin "S"
+			(uuid "f416b0e1-b00f-44b2-80de-711b8afe1b46")
+		)
+		(pin "T"
+			(uuid "9cf8bee9-860e-4653-a3dc-0ab9746982f3")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20077857-cbba-4200-8d35-6c25701ea43b")
+		(property "Reference" "J13"
+			(at 73.025 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "f4a2302e-e09f-444c-9b41-ab67163f590e")
+		)
+		(pin "S"
+			(uuid "9e43d410-b868-4b35-bbad-220808ed79e9")
+		)
+		(pin "T"
+			(uuid "32bbb318-a5ec-47c0-ab2b-7aef8d3d3487")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Eurorack_Power_Connector_16Pin")
+		(at 142.24 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24142a8c-e312-4fff-8642-f23dbe9a1331")
+		(property "Reference" "J100"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IDC_02x08"
+			(at 140.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:IDC-Header_2x08_P2.54mm_Vertical_Eurorack"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IDC jack, 2x8 pins, row a carries same signals as row b."
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6a"
+			(uuid "8bd4a813-ef5c-4ba6-8fdf-972d19e7da00")
+		)
+		(pin "3b"
+			(uuid "7c7d20da-1de2-4693-823d-c0b4e95a017b")
+		)
+		(pin "8a"
+			(uuid "629609bc-ffe7-48ff-a68b-e42d0769342c")
+		)
+		(pin "8b"
+			(uuid "4f81d598-03fa-4980-a5c4-d62d4d091b00")
+		)
+		(pin "3a"
+			(uuid "dda89845-c168-4d37-ac4a-b9ce3cdba3ed")
+		)
+		(pin "4b"
+			(uuid "682e2317-ce2c-4410-b0ef-b42ce2a5b33e")
+		)
+		(pin "6b"
+			(uuid "1ad4ec88-72ee-4b08-8116-0d0d468ba10b")
+		)
+		(pin "7a"
+			(uuid "30d895e8-a58d-45f7-bcc7-4a20182fd643")
+		)
+		(pin "1a"
+			(uuid "93076d58-928d-4f50-9cb5-069a5c463c2e")
+		)
+		(pin "5a"
+			(uuid "290d053b-d15d-49e4-ab50-2579bed1712f")
+		)
+		(pin "1b"
+			(uuid "97d1de6d-e4e9-4632-b9c2-5dbbe7a147b3")
+		)
+		(pin "5b"
+			(uuid "193554f0-5dca-4b28-86cf-e9e5da93e63a")
+		)
+		(pin "2a"
+			(uuid "ef617eda-55a6-4316-8c49-2fa2e66cac1d")
+		)
+		(pin "7b"
+			(uuid "e0e68451-c0a6-44e6-8981-6c9c818b7afc")
+		)
+		(pin "4a"
+			(uuid "43f7a6a2-8dc8-45df-bfc6-862ff469cd36")
+		)
+		(pin "2b"
+			(uuid "67853654-64da-4315-898b-3c3cfc1a1454")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a96cf82-8337-4abe-b425-cd5170cb930f")
+		(property "Reference" "J1"
+			(at 73.025 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "db7489ed-530b-4bd6-8351-ea6cddbbac51")
+		)
+		(pin "S"
+			(uuid "8274dc72-f3f9-4270-af78-35181fa3b569")
+		)
+		(pin "T"
+			(uuid "f399f51a-c0af-4d67-90ce-2ad31d94a4c2")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 199.39 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d172b56-30b4-4017-a259-69c8047cea07")
+		(property "Reference" "J18"
+			(at 198.755 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 198.755 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "a72b8ab3-f3ff-40c8-8a9a-9952e9e3933e")
+		)
+		(pin "S"
+			(uuid "75e24069-efb4-480f-81fc-e0df52bc4b2e")
+		)
+		(pin "T"
+			(uuid "b72b022e-875d-499c-85d7-a37f62dabff8")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "397f5bb3-78e7-48cc-b91a-3a7babafeaff")
+		(property "Reference" "J16"
+			(at 93.345 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "f795064a-dade-4d1a-851d-e67b9f9680ab")
+		)
+		(pin "S"
+			(uuid "e94e9692-b1ed-4897-901b-4da209963dc8")
+		)
+		(pin "T"
+			(uuid "4c88a92d-1e7b-4401-ac37-18f963eafeb5")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd2b1f8-4523-4ace-b237-a8bf9a97504f")
+		(property "Reference" "#PWR01"
+			(at 114.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d74ec787-a37c-4287-b57a-f7c84a1541fe")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46cdcb34-aa22-4f19-9bfd-561e581de66b")
+		(property "Reference" "J10"
+			(at 93.345 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "b5b58747-5433-4d6f-9c49-f2a919eee343")
+		)
+		(pin "S"
+			(uuid "910da4d2-f495-4b73-9cc6-ca0da8f398ef")
+		)
+		(pin "T"
+			(uuid "c193e529-58b2-4338-8034-0d1d679b5d1f")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Banana_Jack")
+		(at 54.61 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "485c7743-8d76-4025-b582-d8a0d937fbc7")
+		(property "Reference" "TP4"
+			(at 57.15 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Banana_Jack"
+			(at 57.15 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 59.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point to solder Banana Jack to"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63fdf818-fc95-40ee-a5f1-3d1f944fbf24")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 190.5 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5061ec5e-8581-4025-be40-02ec78c8cff8")
+		(property "Reference" "#PWR0104"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 190.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d941b55-c2d2-4e34-942a-5454d848f906")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "547a00ae-9815-4cfb-b84d-7a42fcbda446")
+		(property "Reference" "#PWR0109"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17b8b3a8-8668-4ee8-a1a3-1c4b3318a18b")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "702aadf5-b959-45b0-93a6-0b06af48cee0")
+		(property "Reference" "#PWR0102"
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc4d8e57-599b-40f5-a04e-01764c85ab2f")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ccc5d98-798c-4959-bc7b-4be3a6fa21bb")
+		(property "Reference" "J8"
+			(at 93.345 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "c7ad561b-cc5a-4246-bd90-3ad2f6cfeed2")
+		)
+		(pin "S"
+			(uuid "e4fe76a0-2db1-44b6-a907-8e2561255dec")
+		)
+		(pin "T"
+			(uuid "b6fc5609-cd54-4427-8038-965ea372a45d")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd1dd45-1e8d-4dc6-85aa-8d83633a5740")
+		(property "Reference" "J9"
+			(at 73.025 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "73534279-0331-43fd-9ba3-b4251c5396cf")
+		)
+		(pin "S"
+			(uuid "69387117-d6c7-4428-a28f-f110c9f81673")
+		)
+		(pin "T"
+			(uuid "e55d082d-b481-4cf2-a2ac-9d46e8b38548")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 199.39 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80101b7b-78b4-4a34-b14e-8f01aee0ed69")
+		(property "Reference" "J20"
+			(at 198.755 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 198.755 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "a5c20145-ffcf-4982-996a-177fffbac9f3")
+		)
+		(pin "S"
+			(uuid "70a88f60-c704-40e4-a8b5-d5c906d2d4a1")
+		)
+		(pin "T"
+			(uuid "89ed54e3-7fcf-4d01-a007-2b01309f896b")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b6232b9-601a-4ec0-8ebf-465929a3479d")
+		(property "Reference" "#PWR0101"
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0800ad0c-27ab-4c31-981b-64d6630568e3")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e9710ad-5a71-4d1e-8b1d-4148d446fbee")
+		(property "Reference" "#PWR0107"
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d394f623-8432-43e9-b02b-42e854244e48")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 179.07 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9033e790-40ea-49e8-a726-710e206f457f")
+		(property "Reference" "J19"
+			(at 178.435 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 178.435 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "5fb59866-9d1d-409c-93cf-f860d50a1700")
+		)
+		(pin "S"
+			(uuid "f3be255d-9d80-4716-8702-38838efdd2c3")
+		)
+		(pin "T"
+			(uuid "1052a841-cd30-47de-ab03-624932827608")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Banana_Jack")
+		(at 54.61 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94e7d78c-5bf2-4482-9f5d-9e7eb14b608b")
+		(property "Reference" "TP1"
+			(at 57.15 23.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Banana_Jack"
+			(at 57.15 25.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point to solder Banana Jack to"
+			(at 54.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e347405-d326-4558-940c-830fb5770885")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99ed4983-9fdc-4e1b-9459-909b5a200c3d")
+		(property "Reference" "#PWR0110"
+			(at 114.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b992642-e3cf-4433-9654-9b0f8475e76f")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bab1edd-d9d9-4a28-a1c3-47dd735d3af0")
+		(property "Reference" "#PWR0108"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7487cf33-68a8-4c3e-937c-df7129f61fd6")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cf8dedb-410d-466a-8c6a-18b31d2b3402")
+		(property "Reference" "J6"
+			(at 93.345 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "2ffe8690-fa30-43ec-9e89-f61de8ad68a8")
+		)
+		(pin "S"
+			(uuid "835b0241-5f14-4df6-9bb7-cbf45822366b")
+		)
+		(pin "T"
+			(uuid "84c70ad1-7b6d-494e-a5b9-a07854109efb")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f8fad2f-00c0-4e07-9432-a3254c4d600c")
+		(property "Reference" "J11"
+			(at 73.025 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "38614df8-9db1-414f-9dbb-2911a781410b")
+		)
+		(pin "S"
+			(uuid "eefabadd-5e6d-4519-acf7-f3392a25f56f")
+		)
+		(pin "T"
+			(uuid "9c47e6fb-b0a1-48da-9602-a6c7caefebc3")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae29d345-9642-405f-9650-a6db9be4bf8e")
+		(property "Reference" "J7"
+			(at 73.025 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "188faed7-1d8b-41ee-a44a-e73c923add37")
+		)
+		(pin "S"
+			(uuid "158f6314-ef8c-4efa-b6ab-e87a2adbdfad")
+		)
+		(pin "T"
+			(uuid "7ab581fb-dcde-4810-9aaa-4e772c57d604")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 205.74 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb4371a-20ff-4778-bd15-4a0e5e60a55d")
+		(property "Reference" "#PWR0103"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3de8310-fec8-476e-877d-07d4df929fd5")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Banana_Jack")
+		(at 54.61 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c21ff046-46cd-4817-8b5d-3cd86e961dc1")
+		(property "Reference" "TP3"
+			(at 57.15 104.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Banana_Jack"
+			(at 57.15 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point to solder Banana Jack to"
+			(at 54.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d028595-5d0c-45f9-99b4-38c1da472752")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d89349-5e1f-4cf3-8c91-08377202a303")
+		(property "Reference" "J4"
+			(at 93.345 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "da462d8b-fea9-4cf9-bd22-a673707a863c")
+		)
+		(pin "S"
+			(uuid "b19232ff-16e9-47b3-b3b1-fba44a0c770a")
+		)
+		(pin "T"
+			(uuid "7746fc57-9eb4-4077-ac0e-e77845d9233b")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Banana_Jack")
+		(at 54.61 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8560c9b-bc7b-4de7-92ba-0ec9c1a4ed05")
+		(property "Reference" "TP5"
+			(at 57.15 169.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Banana_Jack"
+			(at 57.15 171.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point to solder Banana Jack to"
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e56ee2e-58c3-4955-8a8a-4ca69d724789")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbfa471b-d21c-4525-949a-d1a0839678ef")
+		(property "Reference" "J2"
+			(at 93.345 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "300d8a59-f95b-4433-a95b-a522276e77ad")
+		)
+		(pin "S"
+			(uuid "39ff55b1-713f-4c90-8cc9-3cf272b39d6f")
+		)
+		(pin "T"
+			(uuid "49f0e6ce-4158-45c8-8513-0f490ca715de")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Switch_DPDT")
+		(at 41.91 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cce08027-e206-4cc2-b47f-46ce5beb8e5b")
+		(property "Reference" "SW2"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "264d7eac-276c-482f-b9d2-67e07009df86")
+		)
+		(pin "3"
+			(uuid "efdb8533-5e95-40de-900d-e1eba223cc26")
+		)
+		(pin "5"
+			(uuid "eb2e0664-b373-4dee-ae13-8f9f713cf3e0")
+		)
+		(pin "1"
+			(uuid "c3c7f0c2-f919-4209-9743-1884983c7ea6")
+		)
+		(pin "4"
+			(uuid "295132f7-060b-44d5-bd84-e3c80f2b8ea6")
+		)
+		(pin "6"
+			(uuid "baedbb33-a818-45aa-9875-7ed257d63e9d")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Switch_DPDT")
+		(at 41.91 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da1498de-1501-48ca-a188-a80eb001da1f")
+		(property "Reference" "SW1"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT"
+			(at 41.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
+			(at 41.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf49fe96-d978-49dd-b515-2666581ed470")
+		)
+		(pin "3"
+			(uuid "6a506c8d-5f5f-416e-9986-27e553400a7a")
+		)
+		(pin "5"
+			(uuid "66d3faa4-6007-4bda-b89e-838ceb05906f")
+		)
+		(pin "1"
+			(uuid "085f6181-d3eb-491e-b10c-e1053fc04296")
+		)
+		(pin "4"
+			(uuid "1b9d99dd-277b-43bc-8394-7dfbec276a33")
+		)
+		(pin "6"
+			(uuid "7bb9dfbc-0642-4acd-a17a-bee0d102e4c0")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Banana_Jack")
+		(at 54.61 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0e4dbd5-366b-4ca0-8195-4169cbfa71a1")
+		(property "Reference" "TP2"
+			(at 57.15 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Banana_Jack"
+			(at 57.15 65.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point to solder Banana Jack to"
+			(at 54.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a66f1fa-41c1-4d5f-86b2-1bfb0b5f0566")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Conn_01x08_BackboneTap")
+		(at 180.34 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a7d03c-3263-4fc1-9ade-0183253cdee9")
+		(property "Reference" "J50"
+			(at 181.61 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08_BackboneTap"
+			(at 181.61 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "34e23222-1252-4e34-a690-9f64bae50ab9")
+		)
+		(pin "5"
+			(uuid "bec75a37-a6a9-4b82-8677-84d0e4932762")
+		)
+		(pin "3"
+			(uuid "93bd7a33-44cf-4581-b62e-89299c5bfe00")
+		)
+		(pin "1"
+			(uuid "fc4af9b9-9580-470a-8dea-96a0a416195c")
+		)
+		(pin "2"
+			(uuid "96305d88-3d96-434a-8c24-608a87d55579")
+		)
+		(pin "6"
+			(uuid "418fd5d4-cfbf-4701-aeea-fa547c2a31b6")
+		)
+		(pin "7"
+			(uuid "e4b771ee-6695-4802-a4ac-fe2415720590")
+		)
+		(pin "8"
+			(uuid "120fd5bf-c06b-4ed9-956c-e6182874f19d")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3c0e918-5fd9-43b6-ab34-ea97117e7bff")
+		(property "Reference" "J5"
+			(at 73.025 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "bff63632-76e7-481f-81ad-962c5ca41d05")
+		)
+		(pin "S"
+			(uuid "bbf76168-9c0c-4f83-8334-c2abc10e986b")
+		)
+		(pin "T"
+			(uuid "97dc1068-6aea-4197-a448-a0aa1df1e9e9")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 160.02 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5a7937e-c0d8-4f62-92cc-cecd1d85108d")
+		(property "Reference" "#PWR0106"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 160.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b73a4a09-7817-431a-974c-cdfd3f72e9c4")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb8d25d4-1757-41ba-841b-c69d18c86828")
+		(property "Reference" "J12"
+			(at 93.345 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "04b630d0-565e-48d2-a044-55a228c030d6")
+		)
+		(pin "S"
+			(uuid "f21e6fa4-a256-4a53-878e-74c3d46a0480")
+		)
+		(pin "T"
+			(uuid "bc7e8dbb-6012-495e-828a-71805e60c3e2")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Switch_DPDT")
+		(at 41.91 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f282f6a2-9916-4b41-bd71-2f6a750bb789")
+		(property "Reference" "SW3"
+			(at 41.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT"
+			(at 41.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+			(at 41.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
+			(at 41.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2b4041d-1e6c-42c5-838d-7df0a82c09d8")
+		)
+		(pin "3"
+			(uuid "b48a6f7b-50c9-41c8-a9aa-c62b6a7aff77")
+		)
+		(pin "5"
+			(uuid "5e0d0bea-ceef-4cfa-9bd5-a71af3b6315e")
+		)
+		(pin "1"
+			(uuid "3b3134ae-8873-45cc-b99e-b34adf575af0")
+		)
+		(pin "4"
+			(uuid "b04af116-adb0-471e-bd7c-9188f3ff8ec8")
+		)
+		(pin "6"
+			(uuid "fe120be8-dabc-4fcd-8d9d-00e834b25031")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f99c499e-fb98-493b-b5c8-5a6f6c046caf")
+		(property "Reference" "#PWR0105"
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c043c096-07c7-4ade-9a53-f0eec3d46510")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

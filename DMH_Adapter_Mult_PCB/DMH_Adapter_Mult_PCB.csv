@@ -1,0 +1,12 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,Link
+"J1,J3,J5,J7,J9,J11,J13,J15,J17,J19",TS_Jack_3.5mm_Sw,~,SynthStuff:AMPHENOL_ACJM-MV35-2S,25,,https://nl.mouser.com/ProductDetail/Amphenol-Audio/ACJM-MV35-2S?qs=t8%2F5FiDdxGai2lqRGe%2FRiQ%3D%3D
+"J2,J4,J6,J8,J10,J12,J14,J16,J18,J20",TS_Jack_6.35mm_Sw,~,SynthStuff:CUI_MJ-63052A,25,,https://nl.mouser.com/ProductDetail/CUI-Devices/MJ-63052A?qs=hWgE7mdIu5Q%2Fzf8QG6Cm%2FA%3D%3D
+J50,Conn_01x08_BackboneTap,~,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,1,,
+J100,IDC_02x08,~,SynthStuff:IDC-Header_2x08_P2.54mm_Vertical_Eurorack,5,,
+"SW1,SW2,SW3",SW_DPDT,~,SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536,10,,https://www.tinytronics.nl/en/switches/manual-switches/toggle-switches/standaard-built-in-flip-switch-mts-203
+"TP1,TP2,TP3,TP4,TP5",Banana_Jack_Black,~,Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical,25,,https://www.tinytronics.nl/en/cables-and-connectors/connectors/banana/banana-chassis-standard-male-4mm-black
+,Banana_Jack_Red,,,10,,https://www.tinytronics.nl/en/cables-and-connectors/connectors/banana/banana-chassis-standard-male-4mm-red
+,IDC 2x8 female,,,5,,
+,Flat cable,,,1,,
+,"M3 Screws, black",,,15,,
+,Standoff 24mm,,,5,,

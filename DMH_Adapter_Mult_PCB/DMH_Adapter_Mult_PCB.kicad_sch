@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b497d75e-0918-4e9c-ae43-36360bc031dc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 64.77 99.06)
+		(size 50.8 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01b3bf80-fded-40b5-ad81-2678b7ef607a")
+		(property "Sheetname" "Board"
+			(at 64.77 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Board.kicad_sch"
+			(at 64.77 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
